@@ -49,6 +49,7 @@ extension PaymentIntentsStatusExtension on PaymentIntentsStatus {
         return PaymentIntentsStatus.RequiresAction;
       case 'RequiresCapture':
       case 'requires_capture':
+      case 'requiresCapture':
         return PaymentIntentsStatus.RequiresCapture;
       case 'Unknown':
         return PaymentIntentsStatus.Unknown;
