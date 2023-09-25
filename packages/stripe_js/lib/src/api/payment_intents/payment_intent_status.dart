@@ -39,4 +39,6 @@ enum PaymentIntentsStatus {
   /// and cannot be undone. If any funds have been held, cancellation returns
   /// those funds.
   canceled,
+
+  requiresCapture
 }

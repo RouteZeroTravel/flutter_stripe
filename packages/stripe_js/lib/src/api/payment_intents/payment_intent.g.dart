@@ -198,6 +198,7 @@ const _$PaymentIntentsStatusEnumMap = {
   PaymentIntentsStatus.processing: 'processing',
   PaymentIntentsStatus.succeeded: 'succeeded',
   PaymentIntentsStatus.canceled: 'canceled',
+  PaymentIntentsStatus.requiresCapture: 'requires_capture',
 };
 
 _$_PaymentIntentAmountDetails _$$_PaymentIntentAmountDetailsFromJson(
